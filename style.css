@@ -1,0 +1,36 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
+@media (max-width: 530px) {
+    .main{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .product{
+     width: 70px;
+    height: 70px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+
+    }
+    
+}
