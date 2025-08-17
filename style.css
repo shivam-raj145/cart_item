@@ -15,8 +15,8 @@ body{
     justify-content: space-around;
 }
 .product{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: blanchedalmond;
     border: 2px solid black;
 }
