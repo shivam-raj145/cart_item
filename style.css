@@ -1,4 +1,5 @@
 *{
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
      padding: 0%;
      margin: 0%;
      
@@ -39,15 +40,29 @@ body{
     color: #B4B8AB;
     padding: 2px;
     position: relative;
-    top: 5%;
+    top: 3%;
     left: 30%;
     cursor: pointer;
+    font-weight: 400;
     
 }
 .product button:hover{
     background-color: #284B63;
     color: #F4F9E9;
     transform: scale(1.01);
+}
+.cart{
+    background-color: #153243;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.add_item{
+background-color: #F4F9E9;
+width: 30%;
+height: 100%;
 }
 /* making Responsive*/
 @media (max-width: 710px) {
@@ -67,4 +82,26 @@ body{
     left: 20%;
 }
     
+}
+/* make responsive from 316px less */
+@media (max-width: 316px) {
+
+ .main{
+        display: flexbox;
+        flex-wrap: wrap;
+        
+    }
+    .product{
+        width: 77%;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+
+    }
+    .product button{
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+
+
 }
