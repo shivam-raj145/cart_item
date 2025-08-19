@@ -9,23 +9,23 @@ body{
     height: 100%;
 }
 .main{
-    width: 99vw;
-    height: 99vh;
+    width: 98vw;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 .product{
-    width:40%;
-    height:40%;
+    width: 200px;
+    height: 200px;
     background-color: blanchedalmond;
     border: 2px solid black;
     margin: 10px;
     flex-shrink: 3;
 }
 .product img{
-    width: 70%;
-    height: 70%;
+    width:67%;
+    height:67%;
     border: 1px solid black;
     border-radius: 9px;
     position: relative;
@@ -52,13 +52,16 @@ body{
     transform: scale(1.01);
 }
 /* making Responsive*/
-@media (max-width: 710px) {
+@media (max-width: 789px) {
     .main{
+        height: 610px;
         display: flexbox;
         flex-wrap: wrap;
+        overflow: scroll;
         
     }
     .product{
+     width: 156px;
     background-color: blanchedalmond;
     border: 2px solid black;
 
@@ -76,10 +79,11 @@ body{
  .main{
         display: flexbox;
         flex-wrap: wrap;
+         overflow: scroll;
         
     }
     .product{
-        width: 77%;
+    width: 128px;
     background-color: blanchedalmond;
     border: 2px solid black;
 
